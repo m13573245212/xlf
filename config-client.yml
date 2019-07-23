@@ -26,12 +26,12 @@ eureka:
       defaultZone: http://eureka-test.com:7001/eureka/
 --- 
 server:
-    port: 8203
+  port: 8203
 spring:
-    profiles: default
-    application:
-        name: config-client
+  profiles: default
+  application:
+    name: config-client
 eureka:
-    client:
-        service-url:
-            defaultZone: http://eureka-test.com:7001/eureka/
+  client:
+    service-url:
+      defaultZone: http://eureka-default.com:7001/eureka/
